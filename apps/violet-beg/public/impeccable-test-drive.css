@@ -1,0 +1,24 @@
+/* Impeccable test drive page. Safe to delete. */
+body { margin: 0; font-family: system-ui, sans-serif; background: #fafaf7; color: #1c1c1c; }
+header { padding: 1.25rem 1rem; }
+main { margin: 0; padding: 0; }
+.panel { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
+/* Intentional, for Impeccable's test drive: gradient text on the heading. */
+h1 {
+  font-size: clamp(2rem, 6vw, 3rem);
+  background: linear-gradient(90deg, #2f7d4f, #c2410c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+/* Intentional, for Impeccable's test drive: a colour that is not in the app's palette. */
+.accent-bar { height: 0.5rem; background: #ff00aa; margin-bottom: 1rem; }
+/* Intentional, for Impeccable's test drive: light grey text, well under 4.5:1 contrast. */
+.hint { color: #c9c9c9; }
+/* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+.tiny-link { font-size: 10px; }
+/* Intentional, for Impeccable's test drive: a transition on a layout property. */
+.meter { height: 0.75rem; width: 30%; background: #2f7d4f; transition: width 0.3s; }
+.meter:hover { width: 90%; }
+/* Intentional, for Impeccable's test drive: body text flush with the viewport edges, no background. */
+.edge { margin: 0; padding: 0; line-height: 1.5; }
